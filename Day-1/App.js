@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
 const heading = React.createElement(
     "h1",
     {
@@ -28,3 +31,24 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //async defer
 root.render(container)
+
+
+ /*
+    HMR - Hot Module Reloading
+    File Watcher Algorithms - C++
+    Bundling
+    MINIFY
+    Cleaning our code
+    Dev and Production build
+    Super fast build algorithms
+    Image Optimization
+    Caching while development
+    Compression
+    Compatible with older versions of browsers
+    https on dev
+    port number
+    consistent hashing algorithm to cache things
+    Zero configuration bundler
+    Transitive Dependencies
+
+ */
